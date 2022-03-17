@@ -1,7 +1,7 @@
 ﻿namespace POO_Practica
 {
     //Heredar de la clase Abstracta Employee----------------------------------------------------------
-    internal class SalaryEmployee : Employee
+    public class SalaryEmployee : Employee
     {
         //Crear propiedad Atributo--------------------------------------------------------------------
         public decimal Salary { get; set; }

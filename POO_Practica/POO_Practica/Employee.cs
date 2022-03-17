@@ -21,7 +21,7 @@
         //Sobreescribir el metodo ToString()----------------------------------------------------------
         public override string ToString()
         {
-            return $"{Id} - {FirstName} - {LastName}, " +
+            return $"{Id} - {FirstName} {LastName}, " +
                 $"Birth : {BirthDate}, " +
                 $"Hiring : {HiringDate}, " +
                 $"Is Active : {IsActive}";

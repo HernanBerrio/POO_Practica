@@ -15,6 +15,7 @@ Employee employee1 = new SalaryEmployee()
     Salary = 1815453.45M //Se le pone M al final representa money-----------------------------------
 };
 Console.WriteLine(employee1);
+Console.WriteLine("=================================================================");
 
 
 Employee employee2 = new CommissionEmployee()
@@ -29,3 +30,4 @@ Employee employee2 = new CommissionEmployee()
     CommisionPercentaje = 0.03F
 };
 Console.WriteLine(employee2);
+Console.WriteLine("=================================================================");
