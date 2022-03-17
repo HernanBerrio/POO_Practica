@@ -2,12 +2,12 @@
 {
     public class Date //cambiar palabra reservada private a public
     {
-        //Declarar atributos
+        //----------------------Declarar atributos------------------------------------------
         private int _year;
         private int _month;
         private int _day;
 
-        //crear constructor ctor y presiono tab tab
+        //----------------crear constructor ctor y presiono tab tab--------------------------
         public Date(int year, int month, int day)
         {
             _year = year;
@@ -16,7 +16,7 @@
     
         }
 
-        private int Checkday(int year, int day, int month)//Chequear año biciesto
+        private int Checkday(int year, int day, int month)//Chequear año biciesto------------------
         {
             if (month == 2 && day == 29 && IsleapYear(year))
             {
@@ -54,7 +54,8 @@
 
         public override string ToString()
         {
-            return $"{_year}/{_month:00}/{_day:00}"; //realizar interpolacion de string en C#
+            //realizar interpolación de string en C#------------------------------------------
+            return $"{_year}/{_month:00}/{_day:00}"; 
         }
 
     }
