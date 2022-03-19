@@ -1,7 +1,7 @@
 ﻿namespace POO_Practica
 {
     //Definir Clase Abstracta------------------------------------------------------------------------
-    public abstract  class Employee
+    public abstract  class Employee :Ipay 
     {
         // ---------------1. Crear propiedades (prop tab tab)----------------------------------------
         public int Id { get; set; }
